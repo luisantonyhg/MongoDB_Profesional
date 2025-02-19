@@ -2,5 +2,5 @@
 
 use("sample_training")
 
-
+// empezando mongo DB profesional
 db.zips.find({state: "NY"}).count()
