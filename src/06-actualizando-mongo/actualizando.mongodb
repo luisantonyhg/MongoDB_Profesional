@@ -1,0 +1,13 @@
+
+use("platzi_store")
+
+db.products.updateOne(
+// query o filtro
+    { _id: 2 },
+    // cambios a realizar
+    {
+  $set: {
+            name:"cambiando por un update"
+        }
+    }
+)
